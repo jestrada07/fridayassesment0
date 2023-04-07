@@ -1,4 +1,4 @@
-public abstract class Pc {
+public class Pc {
     private Motherboard motherboard;
     private Monitor monitor;
     private Case  aCase;
