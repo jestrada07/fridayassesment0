@@ -3,6 +3,11 @@ public class Resolution {
     private int height;
 
 
+    public Resolution(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
     public int getWidth() {
         return width;
     }
@@ -19,6 +24,11 @@ public class Resolution {
         this.height = height;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Resolution{" +
+                "width=" + this.width +
+                ", height=" + this.height +
+                '}';
+    }
 }
